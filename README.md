@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img border-radius: 15px src="https://telegra.ph/file/24cacd9938446a38180fd.png" width="250" height="250"/>
+  <img border-radius: 15px src="https://telegra.ph/file/24cacd9938446a38180fd.png" width="250" height=""/>
   <p align="center">
 
     
