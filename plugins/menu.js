@@ -5,7 +5,7 @@ const axios = require('axios');
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'rmenu ', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+Asena.addCommand({pattern: 'help ', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -17,11 +17,11 @@ Asena.addCommand({pattern: 'rmenu ', fromMe: false, desc: Lang.WP}, (async (mess
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💮RAVANA💮━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💮මාරයා💮━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 RAVANA🇱🇰 𝐛𝐨𝐭.
-╚═════════════RAVANA(-)
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 මාරයා🇱🇰 𝐛𝐨𝐭.
+╚═════════════(මාරයා-)
 
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
@@ -135,7 +135,7 @@ Asena.addCommand({pattern: 'rmenu ', fromMe: false, desc: Lang.WP}, (async (mess
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
 🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
 ■□■□■□■□■□■□■□■□■□■□
-═════💢RaVana💢═════
+═════💢මාරයා💢═════
 ▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣
 
 `}) 
